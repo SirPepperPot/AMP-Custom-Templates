@@ -5,6 +5,7 @@ Meta.AarchSupport=NotSupported
 Meta.Arch=x86_64
 Meta.Author=SirPepperPot
 Meta.URL=https://github.com/pixeltris/YgoMaster
+Meta.DisplayImageSource=steam:1449850
 Meta.ConfigManifest=ygomasterconfig.json
 Meta.MetaConfigManifest=ygomastermetaconfig.json
 Meta.ConfigRoot=ygomaster.kvp
