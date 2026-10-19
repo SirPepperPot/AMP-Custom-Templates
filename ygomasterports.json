@@ -1,0 +1,16 @@
+[
+  {
+    "Protocol": "TCP",
+    "Port": 4989,
+    "Ref": "ServerPort",
+    "Name": "Game Server",
+    "Description": "YgoMaster HTTP server"
+  },
+  {
+    "Protocol": "TCP",
+    "Port": 4988,
+    "Ref": "SessionPort",
+    "Name": "PvP Session",
+    "Description": "YgoMaster multiplayer session server"
+  }
+]
