@@ -1,0 +1,14 @@
+[Unit]
+Description=Headless X display for YgoMaster Wine PvP
+After=network.target
+
+[Service]
+Type=simple
+User=amp
+Group=amp
+ExecStart=/usr/bin/Xvfb :99 -screen 0 1280x720x24 -nolisten tcp
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
